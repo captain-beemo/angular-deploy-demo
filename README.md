@@ -11,6 +11,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 3. .angular-cli.json project name should be the same as <repo_name>
 
+4.  git remote repo should be marked as public too, otherwise, it won't be able to post the project.
+
 ```
 
 
