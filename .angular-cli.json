@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "deploy-demo"
+    "name": "angular-deploy-demo"
   },
   "apps": [
     {
       "root": "src",
-      "outDir": "dist",
+      "outDir": "dist/angular-deploy-demo",
       "assets": [
         "assets",
         "favicon.ico"
