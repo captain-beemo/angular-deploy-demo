@@ -1,21 +1,23 @@
 # DeployDemo
 
-Link to [DeployDemo](https://captain-beemo.github.io/angular-deploy-demo/)
+Link to [Angular deploy demo](https://captain-beemo.github.io/angular-deploy-demo/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
 
 ## deploy on github pages
 
 ```text
-1.ng build --prod --base-href https://<profile_name>.github.io/<repo_name>/ --deploy-url=https://<profile_name>.github.io/<repo_name>/
+1.npm install -g angular-cli-ghpages
 
-2.ngh --dir=dist/<repo_name>
+2.ng build --prod --base-href https://<profile_name>.github.io/<repo_name>/ --deploy-url=https://<profile_name>.github.io/<repo_name>/
 
-3. .angular-cli.json project name should be the same as <repo_name>
+3.ngh --dir=dist/<repo_name>
 
-4.  git remote repo should be marked as public too, otherwise, it won't be able to post the project.
+4. .angular-cli.json project name should be the same as <repo_name>
 
-5.make sure to delete dist folder in the project and gh-pages branch in the remote repo before you go to the through step 1 and 2.
+5.git remote repo should be marked as public too, otherwise, it won't be able to post the project.
+
+6.make sure to delete dist folder in the project and gh-pages branch in the remote repo before you go to the through step 1 and 2.
 
 ```
 
@@ -26,6 +28,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 2.ngh --dir=dist/angular-deploy-demo/
 ```
+
+## Angular deploy on github pages tutorial
+
+[Deploying an Angular App to Github Pages ← Alligator.io](https://alligator.io/angular/deploying-angular-app-github-pages/)
 
 ## Development server
 
