@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## deploy on github pages
 
+Github pages is for front-end deployment only.
+
 ```text
 1.npm install -g angular-cli-ghpages
 
@@ -17,11 +19,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 5.git remote repo should be marked as public too, otherwise, it won't be able to post the project.
 
-6.make sure to delete dist folder in the project and gh-pages branch in the remote repo before you go to the through step 1 and 2.
+6.make sure to delete dist folder in the project and gh-pages branch in the remote repo before you go to the through step 1, 2 and 3.
 
 ```
 
-## this app deploy apps
+## this app deploy steps
 
 ```Text
 1.ng build --prod --base-href https://captain-beemo.github.io/angular-deploy-demo/ --deploy-url=https://captain-beemo.github.io/angular-deploy-demo/
