@@ -1,5 +1,7 @@
 # DeployDemo
 
+Link to [DeployDemo](https://captain-beemo.github.io/angular-deploy-demo/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
 
 ## deploy on github pages
