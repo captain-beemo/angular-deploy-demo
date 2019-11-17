@@ -13,6 +13,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 4.  git remote repo should be marked as public too, otherwise, it won't be able to post the project.
 
+5.make sure to delete dist folder in the project and gh-pages branch in the remote repo before you go to the through step 1 and 2.
+
 ```
 
 ## this app deploy apps
