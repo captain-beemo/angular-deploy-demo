@@ -15,6 +15,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ```
 
+## this app deploy apps
+
+```Text
+1.ng build --prod --base-href https://captain-beemo.github.io/angular-deploy-demo/ --deploy-url=https://captain-beemo.github.io/angular-deploy-demo/
+
+2.ngh --dir=dist/angular-deploy-demo/
+```
 
 ## Development server
 
